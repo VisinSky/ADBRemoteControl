@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ADBRemoteControl" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <!-- Background color. -->
+        <item name="colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <!-- Surface color. -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <!-- Error color. -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+        <!-- Typography styles. -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Material3.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Material3.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Material3.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Material3.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Material3.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Material3.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Material3.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Material3.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Material3.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Material3.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Material3.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Material3.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Material3.Overline</item>
+        <!-- Window attributes. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowTranslucentNavigation" tools:targetApi="k">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="k">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
+</resources>

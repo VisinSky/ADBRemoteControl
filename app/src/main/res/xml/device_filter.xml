@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device vendor-id="1027" product-id="24577" /> <!-- Google Pixel devices -->
+    <usb-device vendor-id="4871" product-id="1234" /> <!-- Generic Android devices -->
+    <!-- Add more device filters as needed -->
+</resources>
